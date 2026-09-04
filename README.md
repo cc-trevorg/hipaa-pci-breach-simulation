@@ -36,7 +36,7 @@ tooling that harvests stored VPN credentials.
 
 From there the attack is entirely a network design problem. The credentials
 grant access to a public subnet. The VPC's local route and permissive security
-groups allow that access to reach a private subnet hosting a SQL database.
+groups allow that access to reach a private subnet hosting a RDS database.
 The actor queries the database using a credential that legitimately holds
 read access, and exfiltrates patient and cardholder records.
 
