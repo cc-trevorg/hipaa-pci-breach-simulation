@@ -14,8 +14,7 @@ Simulated HIPAA/PCI breach lab: OSINT and phishing on a remote sysadmin yield VP
 ### Scenario
 
 Northline Health is a fictional mid-sized healthcare provider running its
-patient portal and billing systems in AWS. The environment stores protected
-health information alongside stored cardholder data.
+patient portal and billing systems in AWS. The environment stores ePHI alongside stored cardholder data.
 
 A threat actor targets Northline with the goal of exfiltrating both data sets.
 Rather than attacking the perimeter, the actor targets a person: a remote
@@ -71,4 +70,16 @@ Audio breakdown of of illustration can be found on via [Loom Profile](https://ww
 ## 3. Exposure Points & Remediation
 
 ### Exposure points 
-- 
+1. Overly Permissive RDS Security Group (CIDR Sourcing Instead of Security Group Sourcing)
+
+2. Flat VPC — No Subnet Level Segmentation (NACLs)
+
+3. No Identity Based Detection Logic
+
+4. Overly Broad Standing Database Access
+
+5. VPN Authentication With No Session Level Controls
+
+6. Unrestricted Egress on Compute and Database Tiers
+
+### Remediation
