@@ -4,9 +4,9 @@ Simulated HIPAA/PCI breach lab: OSINT and phishing on a remote sysadmin yield VP
 ### - [1. Scenario & Scope](#1-scenario--scope)
 ### - [2. Environment Architecture](#2-environment-architecture)
 
-### - [3. Remediation](#10-remediation)
-### - [4. Compliance Mapping - HIPAA & PCI DSS](#11-compliance-mapping--hipaa--pci-dss)
-### - [5. Cost of the Lab](#12-cost-of-the-lab)
+### - [3. Remediation](#3-remediation)
+### - [4. Compliance Mapping - HIPAA & PCI DSS](#4-compliance-mapping--hipaa--pci-dss)
+### - [5. Cost of the Lab](#5-cost-of-the-lab)
 ---
 
 ## 1. Scenario & Scope
@@ -65,3 +65,7 @@ system outside the lab account
 ![Attack path: threat actor uses compromised sysadmin VPN credentials to reach the public subnet web server, then moves laterally via an overly permissive RDS security group to the private database subnet](assets/architecture-attack-path.png)
 
 Audio breakdown of of illustration can be found on via [Loom Profile](https://www.loom.com/share/103d19c24d2d4278ab12a023170fa846) and/or [Linkedin](https://www.linkedin.com/posts/trevor-gilchrist-45a94236b_cloudsecurity-aws-terraform-activity-7501836968461438977-gAWX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFvMMAYBwdbm2lJe9EDXleUG3jkZ_DvFFcc)
+--
+
+
+## 3.Remediation
