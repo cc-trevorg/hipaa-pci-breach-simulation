@@ -38,7 +38,7 @@ Every relevant log source was enabled. Nothing alerted.
 
 ### Scope
 
-This lab was built in an isolated AWS account owned by myselfr. All data in
+This lab was built in an isolated AWS account owned by myself. All data in
 the target database is synthetic and generated for this project. No real PHI
 or cardholder data was used at any point.
 
