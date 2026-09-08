@@ -4,7 +4,7 @@ Simulated HIPAA/PCI breach lab: OSINT and phishing on a remote sysadmin yield VP
 ### - [1. Scenario & Scope](#1-scenario-scope)
 ### - [2. Environment Architecture](#2-environment-architecture)
 
-### - [3. Exposure Points & Remediation](#3-exposure-points-remediation)
+### - [3. Exposure Points](#3-exposure-points)
 ### - [4. Compliance Mapping - HIPAA & NIST Controls](#4-compliance-mapping-hipaa-nist-controls)
 ### - [5. Remediation Of Exposure](#5-remediation-of-exposure)
 ### - [6. Cost of the Lab](#6-cost-of-the-lab)
@@ -68,12 +68,12 @@ Audio breakdown of  illustration can be found on via [Loom Profile](https://www.
 --
 
 
-## 3. Exposure Points & Remediation
+## 3. Exposure Points 
 
-### Exposure points 
-1. Overly Permissive RDS Security Group (CIDR Sourcing Instead of Security Group Sourcing)
 
-2. Flat VPC — No Subnet Level Segmentation (NACLs)
+1. **Overly Permissive** RDS Security Group (CIDR Sourcing Instead of Security Group Sourcing)
+
+2. **Flat VPC** — No Subnet Level Segmentation (NACLs)
 
 3. No Identity Based Detection Logic
 
