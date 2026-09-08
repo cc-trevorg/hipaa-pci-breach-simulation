@@ -64,7 +64,7 @@ system outside the lab account
 ### Illustration of scenario's architecture
 ![Attack path: threat actor uses compromised sysadmin VPN credentials to reach the public subnet web server, then moves laterally via an overly permissive RDS security group to the private database subnet](assets/architecture-attack-path.png)
 
-Audio breakdown of  illustration can be found on via [Loom Profile](https://www.loom.com/share/103d19c24d2d4278ab12a023170fa846) and/or [Linkedin](https://www.linkedin.com/posts/trevor-gilchrist-45a94236b_cloudsecurity-aws-terraform-activity-7501836968461438977-gAWX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFvMMAYBwdbm2lJe9EDXleUG3jkZ_DvFFcc)
+Audio breakdown of  illustration can be found on via [Loom Profile](https://www.loom.com/share/103d19c24d2d4278ab12a023170fa846) and/or [Linkedin](https://www.linkedin.com/posts/trevor-gilchrist-45a94236b_cloudsecurity-aws-terraform-activity-7501836968461438977-gAWX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFvMMAYBwdbm2lJe9EDXleUG3jkZ_DvFFcc). Or look in section 3 for TLDR
 --
 
 
