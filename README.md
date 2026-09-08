@@ -7,7 +7,7 @@ Simulated HIPAA/PCI breach lab: OSINT and phishing on a remote sysadmin yield VP
 ### - [3. Exposure Points](#3-exposure-points)
 ### - [4. Compliance Mapping - HIPAA & NIST Controls](#4-compliance-mapping-hipaa-nist-controls)
 ### - [5. Remediation Of Exposure](#5-remediation-of-exposure)
-### - [6. Cost of the Lab](#6-cost-of-the-lab)
+### - [6. Cost of the Lab](#6-cost-of-the-lab--education-resources)
 ---
 
 ## 1. Scenario & Scope
@@ -88,5 +88,5 @@ Audio breakdown of  illustration can be found on via [Loom Profile](https://www.
 ## 5. Remediation Of Exposure
 
 
-## 6. Cost of the Lab
+## 6. Cost of the Lab & Education Resources
 
